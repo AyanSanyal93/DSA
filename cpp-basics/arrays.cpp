@@ -13,8 +13,6 @@ int main()
         cout << "Enter Array elements :: ";
         cin >> a[i];
     }
-
-
     cout << "Array content :: ";
     for (int i = 0; i < n; i++)
     {
