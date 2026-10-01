@@ -1,9 +1,9 @@
 # Define the list to check for ascending order.
-a = [1,2,3,4,8,7,9,10]
+a = [1, 2, 3, 4, 8, 7, 9, 10]
 # Initialize a counter to track adjacent elements that are out of order.
 counter = 0
 # Compare each element with the element immediately following it.
-for i in range(0,len(a) - 1,1):
+for i in range(0, len(a) - 1, 1):
     # Leave the counter unchanged when the current pair is in ascending order.
     if a[i] < a[i+1]:
         pass

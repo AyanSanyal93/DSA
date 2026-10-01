@@ -2,7 +2,7 @@
 Original array to be left-shifted by one position.
 """
 a = [2, 1, 3, 5, 6, 4, 8, 9, 15, 7]
-print("Original array : ",a)
+print("Original array : ", a)
 # Store the first element so it can be placed at the end after shifting.
 first_value = a[0]
 
@@ -23,7 +23,7 @@ Original array to be right-shifted by one position.
 """
 
 b = [2, 1, 3, 5, 6, 4, 8, 9, 15, 7]
-print("Original array : ",b)
+print("Original array : ", b)
 
 last_value = b[len(b) - 1]
 
@@ -35,6 +35,6 @@ for i in range(len(b) - 1, -1, -1):
         b[0] = last_value
     else:
         # Move each element to the previous index from right.
-        b[i]= b[i - 1]
+        b[i] = b[i - 1]
 
 print("Right shifted array : ", b)
